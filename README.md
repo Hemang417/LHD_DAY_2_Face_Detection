@@ -1,1 +1,1 @@
-# LHD_DAY_2_Face_Detection
+# LHD_DAY_2_Face_Recognition
