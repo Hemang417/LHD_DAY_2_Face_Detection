@@ -54,7 +54,7 @@ Due to the time constraint of the hackathon, many things were accomplished only 
    ```
 Clone the repo
    ```sh
-   git clone https://github.com/Hemang417/Hacktober-Hackathon-Decoders.git
+   git clone https://github.com/Hemang417/LHD_DAY_2_Face_Recognition.git
    ```
 
 
