@@ -7,7 +7,7 @@ It is an software where with a given data set, the program recognises the face.
 <br/>
 
 <p align="center">
-    <img src="src/images/homeimage.jpeg" width="60%">
+    <img src="./img/result.png" width="60%">
   </p>
 </p>
 
