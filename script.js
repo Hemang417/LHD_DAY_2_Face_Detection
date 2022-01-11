@@ -9,6 +9,8 @@ Promise.all([
 async function start(){
     const container = document.createElement('div')
     container.style.position = 'relative'
+    document.body.style.color = 'green'
+    document.body.append("Loading Modules")
     document.body.append(container)
     const labeledFaceDescriptors = await loadLabeledImages()
     const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors, 0.6)
@@ -21,7 +23,7 @@ async function start(){
         const displaySize = {width: image.width, height: image.height}
         faceapi.matchDimensions(canvas, displaySize)
         const detections = await faceapi.detectAllFaces(image).withFaceLandmarks().withFaceDescriptors()
-        document.body.append(detections.length)
+        // document.body.append(detections.length)
         const resizedDetections = faceapi.resizeResults(detections, displaySize)
 
         const results = resizedDetections.map(d => faceMatcher.findBestMatch(d.descriptor))
