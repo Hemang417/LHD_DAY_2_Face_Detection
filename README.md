@@ -42,7 +42,7 @@ Then went with designing and developing UI using HTML & CSS (with help of few re
 Linking the API and using the resources as I was not familiar with it.
 
 
-## What's next for DotCoin
+## What's next for Face_Recognition
 
 Due to the time constraint of the hackathon, many things were accomplished only till half way. These include :
 
