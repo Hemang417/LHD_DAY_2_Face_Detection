@@ -1,9 +1,9 @@
 # LHD_DAY_2_Face_Recognition
 <!-- PROJECT LOGO -->
 <h1 align="center"> Face_Recognition </h1>
-
+<p align="center">
 It is an software where with a given data set, the program recognises the face. 
-
+</p>
 <br/>
 
 <p align="center">
